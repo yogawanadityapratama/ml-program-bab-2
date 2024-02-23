@@ -2,11 +2,11 @@
 from sklearn.datasets import load_iris
 iris_ku = load_iris()
 
-# simpan data fitur/kolom (X) dan target (y)
+# simpan data fitur/kolom (x) dan target (y)
 x = iris_ku.data
 y = iris_ku.target
 
-# simpan nama fitur/kolom (X) dan target (y)
+# simpan nama fitur/kolom (x) dan target (y)
 feature_names = iris_ku.feature_names
 target_names = iris_ku.target_names
 
